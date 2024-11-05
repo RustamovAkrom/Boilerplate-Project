@@ -12,6 +12,7 @@ CUSTOM_APPS = [
     "apps.calculator.apps.CalculatorConfig",
     "apps.cisco.apps.CiscoConfig",
     "apps.kpi.apps.KpiConfig",
+    "apps.playmobile.apps.PlaymobileConfig",
 ]
 
 THIRD_PARTY_APPS = [
