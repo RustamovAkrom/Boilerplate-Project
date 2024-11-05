@@ -99,7 +99,7 @@ class AppealStatus(TimeStampedModel):
 
     class Meta:
         verbose_name = _("AppealStatus")
-        verbose_nam_plural = _("AppealStatuses")
+        verbose_name_plural = _("AppealStatuses")
     
     def __str__(self) -> str:
         return self.name
@@ -127,9 +127,7 @@ class Appeal(TimeStampedModel):
     call_status = models.CharField(max_length=23, choices=CallStatus.choices, blank=True)
 
     class Meta:
-        ordering = [
-            "-updated_at"
-        ]
+        ordering = ["-updaetd_at"]
     
     def __str__(self) -> str:
         return f"{self.title}-{self.agent}"
@@ -163,7 +161,7 @@ class Chouse(TimeStampedModel):
 
     class Meta:
         ordering = [
-            "-updated_at",
+            "-created_at",
         ]
 
     def __str__(self):
@@ -284,4 +282,4 @@ class Process(TimeStampedModel):
 
     class Meta:
         verbose_name = _("Process")
-        verbose_name_plural = -("Processes")
+        verbose_name_plural = _("Processes")

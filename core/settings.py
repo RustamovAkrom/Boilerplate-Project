@@ -87,3 +87,5 @@ MEDIA_URL = "media/"
 MEDIA_ROOT = BASE_DIR / "medai"
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+AUTH_USER_MODEL = "agent.Agent"
