@@ -14,6 +14,7 @@ CUSTOM_APPS = [
     "apps.kpi.apps.KpiConfig",
     "apps.playmobile.apps.PlaymobileConfig",
     "apps.processing.apps.ProcessingConfig",
+    "apps.shina.apps.ShinaConfig",
 ]
 
 THIRD_PARTY_APPS = [
