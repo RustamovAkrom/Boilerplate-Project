@@ -15,6 +15,7 @@ CUSTOM_APPS = [
     "apps.playmobile.apps.PlaymobileConfig",
     "apps.processing.apps.ProcessingConfig",
     "apps.shina.apps.ShinaConfig",
+    "apps.telemarketing.apps.TelemarketingConfig",
 ]
 
 THIRD_PARTY_APPS = [
