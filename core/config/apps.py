@@ -9,6 +9,8 @@ DJANGO_APPS = [
 CUSTOM_APPS = [
     "apps.shared.apps.SharedConfig",
     "apps.agent.apps.AgentConfig",
+    "apps.calculator.apps.CalculatorConfig",
+    "apps.cisco.apps.CiscoConfig",
 ]
 
 THIRD_PARTY_APPS = [
