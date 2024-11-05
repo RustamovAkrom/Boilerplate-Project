@@ -13,6 +13,7 @@ CUSTOM_APPS = [
     "apps.cisco.apps.CiscoConfig",
     "apps.kpi.apps.KpiConfig",
     "apps.playmobile.apps.PlaymobileConfig",
+    "apps.processing.apps.ProcessingConfig",
 ]
 
 THIRD_PARTY_APPS = [
