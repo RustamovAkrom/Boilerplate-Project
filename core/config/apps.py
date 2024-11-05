@@ -11,6 +11,7 @@ CUSTOM_APPS = [
     "apps.agent.apps.AgentConfig",
     "apps.calculator.apps.CalculatorConfig",
     "apps.cisco.apps.CiscoConfig",
+    "apps.kpi.apps.KpiConfig",
 ]
 
 THIRD_PARTY_APPS = [
