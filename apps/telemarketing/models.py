@@ -127,7 +127,7 @@ class Appeal(TimeStampedModel):
     call_status = models.CharField(max_length=23, choices=CallStatus.choices, blank=True)
 
     class Meta:
-        ordering = ["-updaetd_at"]
+        ordering = ["-updated_at"]
     
     def __str__(self) -> str:
         return f"{self.title}-{self.agent}"
