@@ -7,6 +7,8 @@ from django.conf import settings
 from django.contrib import admin
 from django.urls import path, include
 
+from core.config.schemas import swagger_drf_yasg_urlpatterns
+
 
 # Base Api url
 base_url = "api/v1/"
@@ -30,6 +32,8 @@ urlpatterns += i18n_patterns(
     path(_api_v1_url('shina/'), include("apps.shina.urls", namespace="shina")),
     path(_api_v1_url('telemarketing/'), include("apps.telemarketing.urls", namespace="telemarketing")),
 )
+
+urlpatterns += swagger_drf_yasg_urlpatterns
 
 if settings.DEBUG:
     urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
