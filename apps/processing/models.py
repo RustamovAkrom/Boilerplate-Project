@@ -4,7 +4,7 @@ from apps.shared.models import TimeStampedModel
 
 
 class UzcardHistroyRequest(TimeStampedModel):
-    cart_id = models.CharField(max_length=128)
+    card_id = models.CharField(max_length=128)
     start_date = models.DateField()
     end_date = models.DateField()
     page = models.IntegerField()
