@@ -1,0 +1,184 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-06 16:29+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
+"%100>=11 && n%100<=14)? 2 : 3);\n"
+#: apps/agent/choices.py:6
+msgid "Agent"
+msgstr ""
+
+#: apps/agent/choices.py:7
+msgid "Manager"
+msgstr ""
+
+#: apps/agent/choices.py:8
+msgid "Admin"
+msgstr ""
+
+#: apps/agent/choices.py:9
+msgid "Supervisor"
+msgstr ""
+
+#: apps/agent/choices.py:10
+msgid "Branch"
+msgstr ""
+
+#: apps/agent/models.py:90
+msgid "CallLog"
+msgstr ""
+
+#: apps/agent/models.py:91
+msgid "CallLogs"
+msgstr ""
+
+#: apps/playmobile/choices.py:6
+msgid "Hello"
+msgstr ""
+
+#: apps/playmobile/choices.py:7
+msgid "Bye"
+msgstr ""
+
+#: apps/shared/models.py:8
+msgid "Create"
+msgstr ""
+
+#: apps/shared/models.py:9
+msgid "Update"
+msgstr ""
+
+#: apps/shared/models.py:10
+msgid "Delete"
+msgstr ""
+
+#: apps/shared/models.py:62
+msgid "ActionDescription"
+msgstr ""
+
+#: apps/shared/models.py:63
+msgid "ActionDescriptions"
+msgstr ""
+
+#: apps/telemarketing/choices.py:20
+msgid "Interested"
+msgstr ""
+
+#: apps/telemarketing/choices.py:21
+msgid "Not Interested"
+msgstr ""
+
+#: apps/telemarketing/choices.py:22
+msgid "Do Not Distrub"
+msgstr ""
+
+#: apps/telemarketing/choices.py:23
+msgid "Callback"
+msgstr ""
+
+#: apps/telemarketing/choices.py:24
+msgid "Information Left"
+msgstr ""
+
+#: apps/telemarketing/choices.py:28
+msgid "Low"
+msgstr ""
+
+#: apps/telemarketing/choices.py:29
+msgid "Medium"
+msgstr ""
+
+#: apps/telemarketing/choices.py:30
+msgid "High"
+msgstr ""
+
+#: apps/telemarketing/models.py:20
+msgid "Credit"
+msgstr ""
+
+#: apps/telemarketing/models.py:21
+msgid "Credits"
+msgstr ""
+
+#: apps/telemarketing/models.py:33
+msgid "Type"
+msgstr ""
+
+#: apps/telemarketing/models.py:34
+msgid "Types"
+msgstr ""
+
+#: apps/telemarketing/models.py:45
+msgid "CustomerStatus"
+msgstr ""
+
+#: apps/telemarketing/models.py:46
+msgid "CusomerStatuses"
+msgstr ""
+
+#: apps/telemarketing/models.py:57
+msgid "CustomerCategory"
+msgstr ""
+
+#: apps/telemarketing/models.py:58
+msgid "CustomerCategories"
+msgstr ""
+
+#: apps/telemarketing/models.py:66
+msgid "Male"
+msgstr ""
+
+#: apps/telemarketing/models.py:67
+msgid "Famale"
+msgstr ""
+
+#: apps/telemarketing/models.py:101
+msgid "AppealStatus"
+msgstr ""
+
+#: apps/telemarketing/models.py:102
+msgid "AppealStatuses"
+msgstr ""
+
+#: apps/telemarketing/models.py:253
+msgid "Call Script"
+msgstr ""
+
+#: apps/telemarketing/models.py:254
+msgid "Call Scripts"
+msgstr ""
+
+#: apps/telemarketing/models.py:284
+msgid "Process"
+msgstr ""
+
+#: apps/telemarketing/models.py:285
+msgid "Processes"
+msgstr ""
+
+#: core/settings.py:103
+msgid "English"
+msgstr ""
+
+#: core/settings.py:104
+msgid "Русский"
+msgstr ""
+
+#: core/settings.py:105
+msgid "O`zbekcha"
+msgstr ""

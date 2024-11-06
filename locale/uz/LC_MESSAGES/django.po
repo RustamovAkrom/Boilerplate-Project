@@ -1,0 +1,215 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-06 16:29+0500\n"
+"PO-Revision-Date: 2024-11-06 16:41+0500\n"
+"Last-Translator:   <akromjonrustamov56@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Translated-Using: django-rosetta 0.10.0\n"
+
+#: apps/agent/choices.py:6
+#, fuzzy
+msgid "Agent"
+msgstr "Agent"
+
+#: apps/agent/choices.py:7
+#, fuzzy
+msgid "Manager"
+msgstr "Manager"
+
+#: apps/agent/choices.py:8
+#, fuzzy
+msgid "Admin"
+msgstr "Admin"
+
+#: apps/agent/choices.py:9
+#, fuzzy
+msgid "Supervisor"
+msgstr "Super foydalanuvchi"
+
+#: apps/agent/choices.py:10
+#, fuzzy
+msgid "Branch"
+msgstr ""
+
+#: apps/agent/models.py:90
+#, fuzzy
+msgid "CallLog"
+msgstr ""
+
+#: apps/agent/models.py:91
+#, fuzzy
+msgid "CallLogs"
+msgstr ""
+
+#: apps/playmobile/choices.py:6
+#, fuzzy
+msgid "Hello"
+msgstr "Salom"
+
+#: apps/playmobile/choices.py:7
+#, fuzzy
+msgid "Bye"
+msgstr "Hair"
+
+#: apps/shared/models.py:8
+#, fuzzy
+msgid "Create"
+msgstr "Yaratish"
+
+#: apps/shared/models.py:9
+#, fuzzy
+msgid "Update"
+msgstr "Ozgartirish"
+
+#: apps/shared/models.py:10
+#, fuzzy
+msgid "Delete"
+msgstr "Ochirish"
+
+#: apps/shared/models.py:62
+#, fuzzy
+msgid "ActionDescription"
+msgstr ""
+
+#: apps/shared/models.py:63
+#, fuzzy
+msgid "ActionDescriptions"
+msgstr ""
+
+#: apps/telemarketing/choices.py:20
+#, fuzzy
+msgid "Interested"
+msgstr "Qiziqaman"
+
+#: apps/telemarketing/choices.py:21
+#, fuzzy
+msgid "Not Interested"
+msgstr "Qiziqmayman"
+
+#: apps/telemarketing/choices.py:22
+#, fuzzy
+msgid "Do Not Distrub"
+msgstr ""
+
+#: apps/telemarketing/choices.py:23
+#, fuzzy
+msgid "Callback"
+msgstr ""
+
+#: apps/telemarketing/choices.py:24
+#, fuzzy
+msgid "Information Left"
+msgstr ""
+
+#: apps/telemarketing/choices.py:28
+#, fuzzy
+msgid "Low"
+msgstr ""
+
+#: apps/telemarketing/choices.py:29
+msgid "Medium"
+msgstr ""
+
+#: apps/telemarketing/choices.py:30
+msgid "High"
+msgstr ""
+
+#: apps/telemarketing/models.py:20
+msgid "Credit"
+msgstr ""
+
+#: apps/telemarketing/models.py:21
+msgid "Credits"
+msgstr ""
+
+#: apps/telemarketing/models.py:33
+msgid "Type"
+msgstr ""
+
+#: apps/telemarketing/models.py:34
+msgid "Types"
+msgstr ""
+
+#: apps/telemarketing/models.py:45
+msgid "CustomerStatus"
+msgstr ""
+
+#: apps/telemarketing/models.py:46
+msgid "CusomerStatuses"
+msgstr ""
+
+#: apps/telemarketing/models.py:57
+msgid "CustomerCategory"
+msgstr ""
+
+#: apps/telemarketing/models.py:58
+msgid "CustomerCategories"
+msgstr ""
+
+#: apps/telemarketing/models.py:66
+#, fuzzy
+msgid "Male"
+msgstr "Erkak"
+
+#: apps/telemarketing/models.py:67
+#, fuzzy
+msgid "Famale"
+msgstr "Ayol"
+
+#: apps/telemarketing/models.py:101
+#, fuzzy
+msgid "AppealStatus"
+msgstr ""
+
+#: apps/telemarketing/models.py:102
+#, fuzzy
+msgid "AppealStatuses"
+msgstr ""
+
+#: apps/telemarketing/models.py:253
+#, fuzzy
+msgid "Call Script"
+msgstr ""
+
+#: apps/telemarketing/models.py:254
+#, fuzzy
+msgid "Call Scripts"
+msgstr ""
+
+#: apps/telemarketing/models.py:284
+#, fuzzy
+msgid "Process"
+msgstr ""
+
+#: apps/telemarketing/models.py:285
+#, fuzzy
+msgid "Processes"
+msgstr ""
+
+#: core/settings.py:103
+#, fuzzy
+msgid "English"
+msgstr "Inglischa"
+
+#: core/settings.py:104
+#, fuzzy
+msgid "Русский"
+msgstr "Ruscha"
+
+#: core/settings.py:105
+#, fuzzy
+msgid "O`zbekcha"
+msgstr "O`zbekcha"
