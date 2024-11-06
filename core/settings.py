@@ -1,6 +1,7 @@
 import os
-from django.utils.translation import gettext_lazy as _
 from pathlib import Path
+
+from django.utils.translation import gettext_lazy as _
 
 from core.config import * # noqa
 
@@ -72,8 +73,6 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
-LANGUAGE_CODE = 'en'
-
 TIME_ZONE = 'Asia/Tashkent'
 
 USE_I18N = True
@@ -105,6 +104,8 @@ LANGUAGES = [
     ("ru", gettext("Русский")),
     ("uz", gettext("O`zbekcha")),
 ]
+
+LANGUAGE_CODE = 'en'
 
 LOCALE_PATHS = [
     BASE_DIR.joinpath("locale"),
