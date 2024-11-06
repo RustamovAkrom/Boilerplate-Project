@@ -21,6 +21,7 @@ INSTALLED_APPS = CUSTOM_APPS + DJANGO_APPS + THIRD_PARTY_APPS
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
+    'django.middleware.locale.LocaleMiddleware', # translation middleware
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
@@ -110,5 +111,10 @@ LOCALE_PATHS = [
 ]
 
 MODELTRANSLATION_DEFAULT_LANGUAGE = "en"
-MODELTRANSLATION_LANGUAGES = ("en", "ru", "uz")
-MODELTRANSLATION_FALLBACK_LANGUAGES = ("en", "ru", "uz")
+MODELTRANSLATION_LANGUAGES = ("en", "uz", "ru")
+MODELTRANSLATION_FALLBACK_LANGUAGES = ("en", "uz", "ru")
+
+INTERNAL_IPS = (
+    "127.0.0.1",
+    "localhost",
+)
