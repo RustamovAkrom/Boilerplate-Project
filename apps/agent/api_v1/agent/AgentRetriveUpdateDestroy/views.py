@@ -6,7 +6,7 @@ from apps.agent.models import Agent
 from apps.shared.tasks import action_log
 
 
-class AgnetRetriveUpdateDestroyAPIView(RetrieveUpdateDestroyAPIView):
+class AgentRetriveUpdateDestroyAPIView(RetrieveUpdateDestroyAPIView):
     queryset = Agent.objects.all()
     serializer_class = AgentRetriveUpdateDestroySerializer
 
@@ -20,8 +20,8 @@ class AgnetRetriveUpdateDestroyAPIView(RetrieveUpdateDestroyAPIView):
         super().perform_destroy(instance)
 
     
-class ChangePasswordVeiw(UpdateAPIView):
+class ChangePasswordAPIView(UpdateAPIView):
     queryset = Agent.objects.all()
     serializer_class = ChangePasswordSerializer()
 
-__all__ = ("AgnetRetriveUpdateDestroyAPIView", "ChangePasswordVeiw", )
+__all__ = ("AgentRetriveUpdateDestroyAPIView", "ChangePasswordAPIView", )

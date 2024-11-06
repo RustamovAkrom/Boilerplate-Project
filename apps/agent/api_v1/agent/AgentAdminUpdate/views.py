@@ -5,9 +5,9 @@ from apps.agent.permissions import IsAdminPermission
 from .serializers import AgentUpdateSerializer
 
 
-class UpdateProfileView(RetrieveUpdateDestroyAPIView):
+class UpdateProfileAPIView(RetrieveUpdateDestroyAPIView):
     queryset = Agent.objects.all()
     serializer_class = AgentUpdateSerializer
     permission_classes = (IsAdminPermission, )
 
-__all__ = ("UpdateProfileView", )
+__all__ = ("UpdateProfileAPIView", )
