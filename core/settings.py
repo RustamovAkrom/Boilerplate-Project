@@ -33,7 +33,7 @@ ROOT_URLCONF = 'core.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ["templates"],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -51,7 +51,7 @@ WSGI_APPLICATION = 'core.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'NAME': BASE_DIR.joinpath('db.sqlite3'),
     }
 }
 
@@ -80,12 +80,35 @@ USE_I18N = True
 USE_TZ = True
 
 STATIC_URL = 'static/'
-STATIC_ROOT = BASE_DIR / "staticfiles"
-STATICFILES_DIRS = [BASE_DIR / "static"]
+STATIC_ROOT = BASE_DIR.joinpath("staticfiles")
+STATICFILES_DIRS = [BASE_DIR.joinpath("static")]
 
 MEDIA_URL = "media/"
-MEDIA_ROOT = BASE_DIR / "medai"
+MEDIA_ROOT = BASE_DIR.joinpath("media")
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 AUTH_USER_MODEL = "agent.Agent"
+
+AUTHENTICATION_BACKENDS = (
+    "django.contrib.auth.backends.ModelBackend",
+    "apps.agent.authentications.UsernameAuthBackend",
+    "apps.agent.authentications.ExtensionAuthBackend",
+)
+
+def gettext(s):
+    return _(s)
+
+LANGUAGES = [
+    ("en", gettext("English")),
+    ("ru", gettext("Русский")),
+    ("uz", gettext("O`zbekcha")),
+]
+
+LOCALE_PATHS = [
+    BASE_DIR.joinpath("locale"),
+]
+
+MODELTRANSLATION_DEFAULT_LANGUAGE = "en"
+MODELTRANSLATION_LANGUAGES = ("en", "ru", "uz")
+MODELTRANSLATION_FALLBACK_LANGUAGES = ("en", "ru", "uz")
