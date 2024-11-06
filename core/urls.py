@@ -18,6 +18,7 @@ _api_v1_url = lambda url: base_url + _(url)
 
 urlpatterns = [
     path("i18n/", include("django.conf.urls.i18n")),
+    path("rosetta/", include("rosetta.urls")),
 ]
 
 urlpatterns += i18n_patterns(

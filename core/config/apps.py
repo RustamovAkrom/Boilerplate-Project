@@ -26,4 +26,5 @@ THIRD_PARTY_APPS = [
     "django_filters",
     "drf_yasg",
     "modeltranslation",
+    "rosetta",
 ]
