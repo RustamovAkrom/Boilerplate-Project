@@ -119,3 +119,8 @@ INTERNAL_IPS = (
     "127.0.0.1",
     "localhost",
 )
+
+CSRF_TRUSTED_ORIGINS = [
+    "https://tm-api.asakabank.uz",
+    "https://tm.asakabank.uz",
+]
