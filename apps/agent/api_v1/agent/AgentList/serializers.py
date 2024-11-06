@@ -15,7 +15,7 @@ class AgentListSerializer(ContentTypeMixin, ModelSerializer):
             "last_name",
             "is_staff",
             "is_active",
-            "data_joined",
+            "date_joined",
             "phone",
             "role",
             "email",
