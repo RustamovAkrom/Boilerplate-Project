@@ -27,7 +27,7 @@ class SlugStampedModel(models.Model):
 
 class FieldActionMapping(TimeStampedModel):
     field_name = models.CharField(max_length=100, unique=True)
-    action_mode = models.CharField(max_length=10)
+    action_code = models.CharField(max_length=10)
 
     def __str__(self) -> str:
         return self.field_name
